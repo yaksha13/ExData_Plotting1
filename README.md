@@ -1,3 +1,8 @@
+## Note: The data for using the R scripts has not been included in the repository (owing to its humongous size of ~128 MB unzipped)
+
+In order to execute the scripts, place the txt data file in the parent directory of where the repo folder is placed.
+For example, if `ExData_Plotting1` is placed as `Documents/ExData_Plotting1` , place the data txt file here: `Documents/household_power_consumption.txt`
+
 ## Introduction
 
 This assignment uses data from
