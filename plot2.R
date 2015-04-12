@@ -10,9 +10,9 @@ RawData <- subset(RawData,Date == "1/2/2007" | Date == "2/2/2007")
 RawData$Time <- strptime(paste(RawData$Date,RawData$Time), "%d/%m/%Y %H:%M:%S")
 RawData$Date <- as.Date(RawData$Date, format = "%d/%m/%Y")
 
-# Plot Graph 1
+# Plot Graph 2
 par(cex = 0.7)
-hist(x = RawData$Global_active_power,xlab = "Global Active Power (kilowatts)",
-     main="Global Active Power",col = "red")
+plot(x = RawData$Time, y = RawData$Global_active_power, type = "l", 
+     xlab = "", ylab = "Global ActivePower (kilowatts)")
 
-# Save the Graph to a PNG file of size 480 x 480 pixels names plot1.png
+# Save the Graph to a PNG file of size 480 x 480 pixels names plot2.png
