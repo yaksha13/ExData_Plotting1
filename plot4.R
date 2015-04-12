@@ -29,6 +29,7 @@ legend("topright",bty = "n", lty = 1, col = c("black","red","blue"),
 ## Plot third graph
 plot(x = RawData$Time, y = RawData$Voltage, ylab = "Voltage", 
      xlab = "datetime", type ="l")
+
 ## Plot fourth graph
 plot(x = RawData$Time, y = RawData$Global_reactive_power, 
      ylab = "Global_reactive_power", xlab = "datetime", type ="l")
